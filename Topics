@@ -1,179 +1,179 @@
-HTML
-Introduction of different Web Technologies
-Introduction of HTML
-HTML Elements, Attributes, Headings, Paragraphs, Formatting, Fonts, Styles, Links, Images, Tables, Lists
-HTML Forms, Frames, frames
-HTML Colors, Colornames, Colorvalues, Quick List
-HTML Layout, Doctypes, Head, Meta, Scripts, Entities
-HTML URLs, URL Encode, Media, Audio, Object, Video, Media Tags
-HTML 5
-Introduction to HTML5
-HTML5 New Elements, Video, Video/DOM, Audio, Drag and Drop
-HTML Canvas, SVG, HTML5 Canvas vs SVG
-HTML5 Geolocation, Web Storage, App Cache, Web Workers, SSE
-CSS
-Introduction  to CSS
-CSS Syntax, Id & Class, Styling, Styling Backgrounds, Styling Text, Styling Fonts, Styling Links, Styling Lists, Styling Tables, CSS Box Model, Border, Outline, Margin, Padding
-CSS Advanced: Grouping/Nesting, Dimension, Display, Positioning, Floating, Align, Navigation Bar, Image Gallery, Media Types
-BOOTSTRAP
-Introduction to Bootstrap
-BS Containers, Grid Basic, Typography, Colors, Tables, Images
-BS Jumbotron, Alerts, Buttons, Button Groups, Badges, Progress Bars
-BS Spinners, Pagination, List Groups, Cards
-BS Dropdowns, Collapse, Navs, Navbar
-BS Forms, Inputs, Input Groups, Custom Forms, Carousel, Modal
-BS Tooltip, Popover, Toast, Scrollspy, Utilities, Flex, Icons, Media Objects, Filters and Grid
-JAVA SCRIPT
-Introduction to Javascript
-JavaScript Objects, Array, Boolean, Date, Math, Number, String, RegExp, Global
-Browser Objects, Window, Navigator, Screen, History
-DOM Core Objects: NamedNodeMap, Document, Element, Attr, Objects, Document
-DOM Events, Elements, Anchor, Area, Base, Body, Button
-DOM Form, Frame/IFrame, Frameset, Image, Input Button, Input Checkbox, Input File, Input Hidden, Input Password, Input Radio, Input Reset, Input Submit, Input Text
-DOM Link, Meta, Object, Option, Select, Style, Table, Textarea
-JQUERY
-Introduction to JQuery
-JQuery Syntax, Selectors, Events, Effects, Callback
-C#
-An Introduction to C#
-What is .NET?
-What is the CLR?
-The FCL
-Primitive Types
-Namespaces
-Statements and Expressions
-Operators
-Classes and Objects
-Constructors
-Reference Types
-Object Oriented Programming
-Inheritance
-Access Modifiers, Abstract Classes
-Virtual Members
-Static Classes, Sealed Classes, Partial Classes
-C# - Types
-Reference Types, Value Types
-Testing Reference Types and Value Types
-Passing Parameters
-Strings, Boxing, enum, Defining Types
-Interfaces, Arrays, Assemblies
-C# - Events, Properties, and Methods
-Methods, Method Overloading
-Fields, Properties, Events
-Events – Delegates, Subscribing, Publishing
-Indexers
-Operator Overloading
-Conversion Operators
-C# - Flow Control and Exceptions
-Branching, Switching, Looping
-Jumping, Returning and Yielding
-Throwing Exceptions, Built-in Exceptions
-Handling Exceptions, Chaining Catch Blocks
-Finally, Re-throwing Exceptions
-Custom Exceptions
- C# and Generics
-Why Generics?
-Building Collections Without Generics
-Generic Collections, Parameters, Constraints
-Generic Methods
-The default Keyword
-Generic Interfaces, Delegates
-Variance
- C# and LINQ
-Extension Methods
-Extensions and Lambdas
-Lambdas and Funcs
-Funcs and Expressions
-Object Oriented Programming with C#
-Primitive Procedural Preoccupations
-The Big Encapsulation
-Little Abstractions
-The Inheritance Check
-A Clean Interface
-Directional Dependencies
-Asynch and Parallel
-Multithreading
-Exploring the .NET Framework
-Introduction to .NET Framework 6.0
-Resource management with try/finally/using
-Using XML serialization
-Introducing assembly resolution
-Deploying dependent assembly probing
-Using a config file to control probing
-ArrayList, Hashtable, SortedList
-Stack and Queue
- Windows Form
-Introduction to Windows Form
-Form Controls
-User Define Controls
- ADO.NET
-Connected Architecture
-Disconnected Architecture
-SQL basics
-Parameterized queries and Stored procedures
-Working with Transaction
-Advanced key Concepts 
-Introduction to .NET Core basics
-.Net Framework Vs .Net Core
-Hybrid development using Blazor
-Javascript minification
-ASP.Net
-Web Application using ASP.NET
-ASP.NET Architecture
-Control-based Programming
-User Interface Elements
-Deployment
-Web Sites, Applications, and Virtual Directories in IIS
-ASP.NET Diagnostics and Health Monitoring
-ASP.NET Working with Data
-Data Binding
-State Management
-Validation
-Caching
-ASP.NET Security
-IIS URL Authorization
-Forms authentication
-Role-based authorization
-Trimming site maps with roles
-Config file encryption
-ASP.NET Membership
-Resources and Internationalization
-IIS Hardening
-Security (oAuth, JWT basics)
-ASP.NET Advanced Topics
-HTTP Pipeline
-Custom Controls
-Web Parts, Web Services
-ASP.NET AJAX
-ASP.NET Ajax Introduction
-ASP.NET Ajax Server Controls
-ASP.NET Ajax Server Data
-ASP.NET Ajax Client-side Library
-ASP.NET Ajax Control Toolkit
-ASP.NET MVC
-Web Application using MVC Pattern
-Razor View
-Controller
-Model
-Entity Framework
-Introducing the Entity Framework
-Code First Approach
-Web APIs
-REST and RESTFUL APIs
-Creating, Testing, Deploying and Consuming APIs
-Development Methodologies
-Key tools used in SDLC Process and usage of Microsoft technologies in various phases (key focus on C#, ASP.NET, SQL)
-C# and ASP.NET Coding standards
-WEB API Coding standards
-REST and RESTFUL APIs
-Creating, Testing, Deploying and Consuming APIs
-
-Basic concepts
- writing Queries
-Joins
-Stored procedures 
-Dynamic queries 
-Functions
-
-Validations, Server connections,Razor pages,CSS,Html
-Blazor CRUD  Azure Function demo
+	HTML
+HTML: Module1	Introduction of different Web Technologies
+HTML: Module1	Introduction of HTML
+HTML: Module1	HTML Elements, Attributes, Headings, Paragraphs, Formatting, Fonts, Styles, Links, Images, Tables, Lists
+HTML: Module1	HTML Forms, Frames, frames
+HTML: Module1	HTML Colors, Colornames, Colorvalues, Quick List
+HTML: Module1	HTML Layout, Doctypes, Head, Meta, Scripts, Entities
+HTML: Module1	HTML URLs, URL Encode, Media, Audio, Object, Video, Media Tags
+	HTML 5
+HTML-5: Module2	Introduction to HTML5
+HTML-5: Module2	HTML5 New Elements, Video, Video/DOM, Audio, Drag and Drop
+HTML-5: Module2	HTML Canvas, SVG, HTML5 Canvas vs SVG
+HTML-5: Module2	HTML5 Geolocation, Web Storage, App Cache, Web Workers, SSE
+	CSS
+CSS: Module2	Introduction  to CSS
+CSS: Module2	CSS Syntax, Id & Class, Styling, Styling Backgrounds, Styling Text, Styling Fonts, Styling Links, Styling Lists, Styling Tables, CSS Box Model, Border, Outline, Margin, Padding
+CSS: Module2	CSS Advanced: Grouping/Nesting, Dimension, Display, Positioning, Floating, Align, Navigation Bar, Image Gallery, Media Types
+	BOOTSTRAP
+BOOTSTRAP: Module2	Introduction to Bootstrap
+BOOTSTRAP: Module2	BS Containers, Grid Basic, Typography, Colors, Tables, Images
+BOOTSTRAP: Module2	BS Jumbotron, Alerts, Buttons, Button Groups, Badges, Progress Bars
+BOOTSTRAP: Module2	BS Spinners, Pagination, List Groups, Cards
+BOOTSTRAP: Module2	BS Dropdowns, Collapse, Navs, Navbar
+BOOTSTRAP: Module2	BS Forms, Inputs, Input Groups, Custom Forms, Carousel, Modal
+BOOTSTRAP: Module2	BS Tooltip, Popover, Toast, Scrollspy, Utilities, Flex, Icons, Media Objects, Filters and Grid
+	JAVA SCRIPT
+JAVASCRIPT: Module3	Introduction to Javascript
+JAVASCRIPT: Module3	JavaScript Objects, Array, Boolean, Date, Math, Number, String, RegExp, Global
+JAVASCRIPT: Module3	Browser Objects, Window, Navigator, Screen, History
+JAVASCRIPT: Module3	DOM Core Objects: NamedNodeMap, Document, Element, Attr, Objects, Document
+JAVASCRIPT: Module3	DOM Events, Elements, Anchor, Area, Base, Body, Button
+JAVASCRIPT: Module3	DOM Form, Frame/IFrame, Frameset, Image, Input Button, Input Checkbox, Input File, Input Hidden, Input Password, Input Radio, Input Reset, Input Submit, Input Text
+JAVASCRIPT: Module3	DOM Link, Meta, Object, Option, Select, Style, Table, Textarea
+	JQUERY
+JQUERY: Module3	Introduction to JQuery
+JQUERY: Module3	JQuery Syntax, Selectors, Events, Effects, Callback
+	C#
+C#: Module4	An Introduction to C#
+C#: Module4	What is .NET?
+C#: Module4	What is the CLR?
+C#: Module4	The FCL
+C#: Module4	Primitive Types
+C#: Module4	Namespaces
+C#: Module4	Statements and Expressions
+C#: Module4	Operators
+C#: Module4	Classes and Objects
+C#: Module4	Constructors
+C#: Module4	Reference Types
+C#: Module4	Object Oriented Programming
+C#: Module4	Inheritance
+C#: Module4	Access Modifiers, Abstract Classes
+C#: Module4	Virtual Members
+C#: Module4	Static Classes, Sealed Classes, Partial Classes
+C#: Module4	C# - Types
+C#: Module4	Reference Types, Value Types
+C#: Module4	Testing Reference Types and Value Types
+C#: Module4	Passing Parameters
+C#: Module4	Strings, Boxing, enum, Defining Types
+C#: Module4	Interfaces, Arrays, Assemblies
+C#: Module4	C# - Events, Properties, and Methods
+C#: Module4	Methods, Method Overloading
+C#: Module4	Fields, Properties, Events
+C#: Module4	Events – Delegates, Subscribing, Publishing
+C#: Module4	Indexers
+C#: Module4	Operator Overloading
+C#: Module4	Conversion Operators
+C#: Module4	C# - Flow Control and Exceptions
+C#: Module4	Branching, Switching, Looping
+C#: Module4	Jumping, Returning and Yielding
+C#: Module4	Throwing Exceptions, Built-in Exceptions
+C#: Module4	Handling Exceptions, Chaining Catch Blocks
+C#: Module4	Finally, Re-throwing Exceptions
+C#: Module4	Custom Exceptions
+C#: Module4	 C# and Generics
+C#: Module4	Why Generics?
+C#: Module4	Building Collections Without Generics
+C#: Module4	Generic Collections, Parameters, Constraints
+C#: Module4	Generic Methods
+C#: Module4	The default Keyword
+C#: Module4	Generic Interfaces, Delegates
+C#: Module4	Variance
+C#: Module4	 C# and LINQ
+C#: Module4	Extension Methods
+C#: Module4	Extensions and Lambdas
+C#: Module4	Lambdas and Funcs
+C#: Module4	Funcs and Expressions
+C#: Module4	Object Oriented Programming with C#
+C#: Module4	Primitive Procedural Preoccupations
+C#: Module4	The Big Encapsulation
+C#: Module4	Little Abstractions
+C#: Module4	The Inheritance Check
+C#: Module4	A Clean Interface
+C#: Module4	Directional Dependencies
+C#: Module4	Asynch and Parallel
+C#: Module4	Multithreading
+C#: Module4	Exploring the .NET Framework
+C#: Module4	Introduction to .NET Framework 6.0
+C#: Module4	Resource management with try/finally/using
+C#: Module4	Using XML serialization
+C#: Module4	Introducing assembly resolution
+C#: Module4	Deploying dependent assembly probing
+C#: Module4	Using a config file to control probing
+C#: Module4	ArrayList, Hashtable, SortedList
+C#: Module4	Stack and Queue
+C#: Module4	 Windows Form
+C#: Module4	Introduction to Windows Form
+C#: Module4	Form Controls
+C#: Module4	User Define Controls
+C#: Module4	 ADO.NET
+C#: Module4	Connected Architecture
+C#: Module4	Disconnected Architecture
+C#: Module4	SQL basics
+C#: Module4	Parameterized queries and Stored procedures
+C#: Module4	Working with Transaction
+C#: Module4	Advanced key Concepts 
+C#: Module4	Introduction to .NET Core basics
+C#: Module4	.Net Framework Vs .Net Core
+C#: Module4	Hybrid development using Blazor
+C#: Module4	Javascript minification
+	ASP.Net
+ASP.NET: Module5	Web Application using ASP.NET
+ASP.NET: Module5	ASP.NET Architecture
+ASP.NET: Module5	Control-based Programming
+ASP.NET: Module5	User Interface Elements
+ASP.NET: Module5	Deployment
+ASP.NET: Module5	Web Sites, Applications, and Virtual Directories in IIS
+ASP.NET: Module5	ASP.NET Diagnostics and Health Monitoring
+ASP.NET: Module5	ASP.NET Working with Data
+ASP.NET: Module5	Data Binding
+ASP.NET: Module5	State Management
+ASP.NET: Module5	Validation
+ASP.NET: Module5	Caching
+ASP.NET: Module5	ASP.NET Security
+ASP.NET: Module5	IIS URL Authorization
+ASP.NET: Module5	Forms authentication
+ASP.NET: Module5	Role-based authorization
+ASP.NET: Module5	Trimming site maps with roles
+ASP.NET: Module5	Config file encryption
+ASP.NET: Module5	ASP.NET Membership
+ASP.NET: Module5	Resources and Internationalization
+ASP.NET: Module5	IIS Hardening
+ASP.NET: Module5	Security (oAuth, JWT basics)
+ASP.NET: Module5	ASP.NET Advanced Topics
+ASP.NET: Module5	HTTP Pipeline
+ASP.NET: Module5	Custom Controls
+ASP.NET: Module5	Web Parts, Web Services
+ASP.NET: Module5	ASP.NET AJAX
+ASP.NET: Module5	ASP.NET Ajax Introduction
+ASP.NET: Module5	ASP.NET Ajax Server Controls
+ASP.NET: Module5	ASP.NET Ajax Server Data
+ASP.NET: Module5	ASP.NET Ajax Client-side Library
+ASP.NET: Module5	ASP.NET Ajax Control Toolkit
+ASP.NET: Module5	ASP.NET MVC
+ASP.NET: Module5	Web Application using MVC Pattern
+ASP.NET: Module5	Razor View
+ASP.NET: Module5	Controller
+ASP.NET: Module5	Model
+ASP.NET: Module5	Entity Framework
+ASP.NET: Module5	Introducing the Entity Framework
+ASP.NET: Module5	Code First Approach
+ASP.NET: Module5	Web APIs
+ASP.NET: Module5	REST and RESTFUL APIs
+ASP.NET: Module5	Creating, Testing, Deploying and Consuming APIs
+ASP.NET: Module5	Development Methodologies
+ASP.NET: Module5	Key tools used in SDLC Process and usage of Microsoft technologies in various phases (key focus on C#, ASP.NET, SQL)
+ASP.NET: Module5	C# and ASP.NET Coding standards
+ASP.NET: Module5	WEB API Coding standards
+ASP.NET: Module5	REST and RESTFUL APIs
+ASP.NET: Module5	Creating, Testing, Deploying and Consuming APIs
+	
+SQL SERVER 	Basic concepts
+	 writing Queries
+	Joins
+	Stored procedures 
+ 	Dynamic queries 
+	Functions
+	
+Blazor CRUD Demo	Validations, Server connections,Razor pages,CSS,Html
+ Azure Function 	Blazor CRUD  Azure Function demo
