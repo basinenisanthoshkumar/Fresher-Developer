@@ -1,0 +1,54 @@
+ private async Task InputFileChange(IReadOnlyList<IBrowserFile> files)
+ {
+     if (files != null)
+     {
+         try
+         {
+             await JSRuntime.InvokeAsync<object>("filesWaitStart", "UserManagementtDialog_content");
+             foreach (IBrowserFile file in files)
+             {
+                 await using Stream stream = file.OpenReadStream((int)file.Size);
+                 MemoryStream memoryStream = new MemoryStream((int)file.Size);
+                 await stream.CopyToAsync(memoryStream);
+                 memoryStream.Position = 0;
+                 CancellationTokenSource cancellation = new CancellationTokenSource();
+                 byte[] buffer = new byte[file.Size];
+                 int bytesRead = 0;
+                 string UniqueFileName = Path.GetRandomFileName() + ".bin";
+                 string tmpfile = Path.GetTempFileName();
+                 tmpfile = GenericMethods.GetFileNamePathWithoutExt(tmpfile) + ".zip";
+                 while ((bytesRead = await memoryStream.ReadAsync(buffer, cancellation.Token)) != 0)
+                 {
+                     using MemoryStream tmpMemoryStream = new MemoryStream(buffer, 0, bytesRead);
+
+                     using (var fs = new FileStream(tmpfile, FileMode.Append))
+                     {
+                         tmpMemoryStream.WriteTo(fs);
+                     }
+                 };
+                 DialogResponse.DeleteResponse.Attachment = new RejectFileAttach();
+                 DialogResponse.DeleteResponse.Attachment.FileName = file.Name;
+                 DialogResponse.DeleteResponse.Attachment.FileSize = file.Size;
+                 DialogResponse.DeleteResponse.Attachment.CreatedDate = DateTime.Now;
+                 DialogResponse.DeleteResponse.Attachment.CreatedBy = PS.UserState.UserState.empDet.sEmployeeFullName;
+                 DialogResponse.DeleteResponse.Attachment.Bytes = buffer;
+                 EnableSave();
+             }
+         }
+         catch (Exception ex)
+         {
+             await JSRuntime.InvokeAsync<object>("humaneShow", "Failed to Upload", 3000, 2);
+             await JSRuntime.InvokeAsync<object>("filesWaitEnd", "UserManagementtDialog_content");
+             eh.CaptureError(ex);
+         }
+         finally
+         {
+             await JSRuntime.InvokeAsync<object>("filesWaitEnd", "UserManagementtDialog_content");
+         }
+     }
+     else
+     {
+         DialogResponse.DeleteResponse.Attachment = null;
+         EnableSave();
+     }
+ }
